@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cecla</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/icons/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <!-- Incluindo o header -->
+    <div id="header"></div>
+
+    <main>
+        <!-- Sessão inicial -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Transformando<br>Vidas Através da Garantia dos Direitos Sociais</h1>
+                <p>Desde 2017 levando oportunidades para todos</p>
+                <a href="#doacao" class="cta-btn">Faça Parte Dessa Transformação</a>
+            </div>
+        </section>
+
+        <!-- Sessão Noticias -->
+        <section class="noticias-carousel" id="noticias">
+            <div class="carousel-container">
+                <div class="noticias-topo">
+                    <i class="bi bi-newspaper"></i>
+                    <h2>Últimas Notícias</h2>
+                    <p>Fique por dentro de tudo que acontece</p>
+                </div>
+
+                <div class="carousel-wrapper">
+                    <button class="carousel-btn prev-btn" aria-label="Notícia anterior">
+                        <i class="bi bi-chevron-left"></i>
+                    </button>
+
+                    <div class="carousel-inner" id="carouselInner">
+
+                        <div class="carousel-slide active">
+                            <img src="./assets/img/noticias/imagem-noticia1.png" alt="Aula de Capoeira"
+                                class="slide-image">
+                            <div class="slide-content">
+
+                                <h3>Conferência Municipal das cidades - 2025
+                                </h3>
+                                <p>CECLA marca presença na conferência municipal das cidades de 2025</p>
+
+                            </div>
+                        </div>
+
+                        <div class="carousel-slide">
+                            <img src="./assets/img/noticias/imagem-noticia2.jpeg" alt="Evento Beneficente"
+                                class="slide-image">
+                            <div class="slide-content">
+
+                                <h3>Conferência Estadual das Cidades</h3>
+                                <p>Delegado da conferência estadual das cidades representando a cidade de Extremoz-RN -
+                                    CECLA
+                                </p>
+
+                            </div>
+                        </div>
+
+                        <div class="carousel-slide">
+                            <img src="./assets/img/noticias/imagem-noticia3.jpeg" alt="Formatura" class="slide-image">
+                            <div class="slide-content">
+
+                                <h3>Confraternização do Natal 2024</h3>
+                                <p>Promoção de confraternização com os beneficiários do programa Minha Casa Minha Vida
+                                    em Macaíba-RN</p>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <button class="carousel-btn next-btn" aria-label="Próxima notícia">
+                        <i class="bi bi-chevron-right"></i>
+                    </button>
+                </div>
+
+                <div class="carousel-indicators" id="carouselIndicators">
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Sessão doação -->
+        <section class="doacao" id="doacao">
+            <div class="doacao-container">
+                <div class="doacao-topo">
+                    <i class="bi bi-heart"></i>
+                    <h2>Faça Sua Doação</h2>
+                    <p>Sua contribuição faz a diferença</p>
+                </div>
+
+                <div class="doacao-cards">
+                    <!-- Doação Financeira -->
+                    <div class="card">
+                        <div class="card-header azul">
+                            <h3>Doação Financeira</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>Contribua com qualquer valor para ajudar a manter nossas atividades e projetos sociais.
+                            </p>
+
+                            <!--
+                            <div class="info">
+                                <p><strong>PIX:</strong><br> INSERIR CHAVE PIX</p>
+                            </div>
+                            -->
+
+                            <div class="info">
+                                <p><strong>Banco:</strong><br>
+                                    Banco do Brasil<br>
+                                    Agência: 2623-9<br>
+                                    Conta: 61.982-5
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Outras doações -->
+                    <div class="card">
+                        <div class="card-header dourado">
+                            <h3>Outras Doações</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>Ajude-nos a semear esperança e construir um futuro melhor.</p>
+
+                            <ul>
+                                <li>Cestas básicas e alimentos não perecíveis</li>
+                                <li>Materiais de limpeza e uso diário</li>
+                                <li>Móveis</li>
+
+                            </ul>
+
+                            <p><strong>Endereço:</strong> Rua Padre José, 167 - Extremoz (RN)<br>
+                                <strong>Horário:</strong> Segunda a Sexta, 8h às 17h
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sessão de Eventos -->
+        <section class="eventos" id="eventos">
+            <div class="eventos-container">
+                <div class="eventos-topo">
+                    <i class="bi bi-calendar-event"></i>
+                    <h2>Próximos Eventos</h2>
+                    <p>Participe das atividades e eventos da nossa comunidade</p>
+                </div>
+
+                <div class="eventos-cards">
+                    <div class="evento-card">
+                        <div class="data">
+                            <h3>13</h3>
+                            <span>Nov</span>
+                        </div>
+                        <div class="detalhes">
+                            <h4>Reunião com possíveis beneficiários do Minha casa Minha Vida</h4>
+                            <p><strong>Horário:</strong> 10:00</p>
+                            <p><strong>Local:</strong> Distrito de Serrinha - São Gonçalo do Amarante</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="quem-somos" class="quem-somos">
+            <div class="container-quem-somos">
+                <div class="imagem">
+                    <img src="assets/img/quem-somos.jpeg" alt="Pessoas e membros da CECLA reunidos">
+                </div>
+                <div class="texto">
+                    <h2><i class="bi bi-people"></i> Quem Somos Nós</h2>
+                    <h3>Nossa História</h3>
+                    <p>
+                        O Centro Esportivo e Cultural Luis Antônio - CECLA é uma ONG sem fins lucrativos, fundada em 30
+                        de novembro de 2017, dedicada à Promoção Social de crianças, adolescentes, jovens e adultos. Seu
+                        trabalho visa fortalecer a cidadania, elevar o respeito aos Direitos Humanos e estimular a
+                        participação democrática no convívio familiar e comunitário. O CECLA busca usar a transformação
+                        social como ferramenta para melhorar a qualidade de vida e resgatar a autoestima de seus
+                        beneficiários e suas famílias. A entidade tem se envolvido ativamente no fortalecimento da Rede
+                        de Direitos Humanos, Fóruns de Debates e discussões sobre Moradias para famílias de baixa renda,
+                        em parceria com órgãos como o MDS, SUAS e CONAM. Notavelmente, trabalhou por oito anos com o
+                        Instituto Ponte da Vida, qualificando mais de 4.000 jovens na área de Costura Industrial
+                        (inserindo-os na Guararapes Confecções S.A.) e participou do Programa do PNHR em Ceará Mirim,
+                        além de ter atuado em Ações Sociais durante a Pandemia em Extremoz e no RN.
+                    </p>
+                    <p>
+                        Atualmente, o CECLA demonstra capacidade técnica para atuar no Programa MCMV Entidades. Em
+                        parceria com o CEARAH Periferia, a organização pretende colaborar na construção de 150 Unidades
+                        Habitacionais de Interesse Social (Residencial Mangabeira) no município de Macaíba, Rio Grande
+                        do Norte. Além da construção, o CECLA se propõe a executar o Trabalho Técnico Social (TTS)
+                        durante 18 meses, por meio de palestras e Cursos de Qualificação Profissional. Este trabalho
+                        visa aprimorar o Desenvolvimento Socioeconômico e a convivência familiar e comunitária dos
+                        futuros moradores, complementando o impacto da provisão de moradia.
+                    </p>
+                </div>
+
+                <div class="documentos-importantes">
+                    <h3><i class="bi bi-file-earmark-text"></i> Transparência e Documentos</h3>
+                    <p>Aqui você encontra documentos essenciais sobre a atuação e a legalidade do CECLA.</p>
+                    <ul>
+                        <li>
+                            <a href="assets/documentos/CNPJ-CECLA.pdf" target="_blank">
+                                <i class="bi bi-file-earmark-pdf-fill"></i> CNPJ do CECLA
+                            </a>
+                            <span>(Comprovante de Inscrição e Situação Cadastral)</span>
+                        </li>
+                        <li>
+                            <a href="assets/documentos/ESTATUDO SOCIAL-CECLA.pdf" target="_blank">
+                                <i class="bi bi-file-earmark-pdf-fill"></i> Estatuto Social
+                            </a>
+                            <span>(Documento que rege as normas e objetivos da organização)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="cards-quem-somos">
+                <div class="card">
+                    <i class="bi bi-heart"></i>
+                    <h4>Missão</h4>
+                    <p>Promover a transformação social e o resgate da autoestima de crianças, jovens e adultos,
+                        fortalecendo a cidadania e os vínculos comunitários através de ações alinhadas às Políticas
+                        Públicas.
+                    </p>
+                </div>
+                <div class="card">
+                    <i class="bi bi-people"></i>
+                    <h4>Visão</h4>
+                    <p>Ser um agente de referência na promoção da cidadania e dos Direitos Humanos, contribuindo
+                        ativamente para a melhoria da qualidade de vida e a transformação social das comunidades onde
+                        atuamos.</p>
+                </div>
+                <div class="card">
+                    <i class="bi bi-calendar-check"></i>
+                    <h4>Valores</h4>
+                    <p>Respeito aos Direitos Humanos, participação democrática, compromisso social, fortalecimento
+                        comunitário e transformação social.</p>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+    </main>
+
+
+    <!-- Incluindo o footer -->
+    <div id="footer"></div>
+
+    <script src="./assets/js/scripts.js"></script>
+</body>
+
+</html>
